@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd5e1;
+  color: #475569;
+  width: 95%;
+  margin-top: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    margin-top: 8px;
+  }
+}

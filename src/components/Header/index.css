@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd5e1;
+  color: #475569;
+  width: 95%;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    margin-bottom: 8px;
+  }
+}

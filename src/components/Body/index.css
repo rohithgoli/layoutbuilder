@@ -1,0 +1,181 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 50vh;
+  width: 95%;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+}
+
+.navbar-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e8f0;
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-top-container {
+    margin-bottom: 0px;
+    margin-right: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+  }
+}
+
+.container-title {
+  color: #475569;
+  font-weight: bold;
+  font-size: 20px;
+  /*margin: 12px;*/
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 12px;
+  }
+}
+
+.list-item {
+  color: #64748b;
+  font-size: 22px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    margin-bottom: 0px;
+    margin-right: 4px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.content-title {
+  color: #475569;
+  font-weight: bold;
+  font-size: 20px;
+
+  margin: 0px;
+}
+
+.content {
+  color: #64748b;
+  font-size: 22px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    text-align: left;
+  }
+}
+
+.navbar-bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e8f0;
+  width: 100%;
+  padding: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-bottom-container {
+    margin-right: 4px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.ad-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .ad-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.ad-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #475569;
+  color: #475569;
+  height: 200px;
+  width: 48%;
+}
+
+@media screen and (min-width: 768px) {
+  .ad-item-container {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+}
+
+.ad-item-content {
+  font-size: 24px;
+  font-weight: 400;
+}

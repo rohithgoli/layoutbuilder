@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.configuration-controller-bg-container {
+  background-color: #475569;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.configuration-controller-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  color: #ffffff;
+  width: 100%;
+  padding: 32px 0px 0px 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .configuration-controller-container {
+    width: 90%;
+  }
+}
+
+.title {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.configuration-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.configuration-items-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.checkbox-input {
+  margin-right: 16px;
+}

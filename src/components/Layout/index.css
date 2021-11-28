@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.layout-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 10px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .layout-container {
+    width: 90%;
+  }
+}
